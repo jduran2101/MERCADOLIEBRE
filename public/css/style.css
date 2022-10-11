@@ -1,0 +1,149 @@
+* {
+   box-sizing: border-box; 
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+    margin: 0;
+}
+main {
+    width: 90vw;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+main section article i{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+    }
+
+header {
+    background: #EAC926;
+    width: 100%;
+}
+.container {
+    padding-left: 15px;
+}
+
+
+.fas {
+    padding-left: 15px;
+}
+
+ul {
+    padding-left: 15px;
+}
+
+ul#lista li {
+    list-style-type: none;
+    
+}
+
+ul li a {
+    color:black;
+
+}
+
+.burger-menu i {
+    background-color: #03264C;
+    color: #ebebeb;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    font-size: 30;
+}
+.principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+
+.caja1 {
+    background-color: white;
+    width: 340px;
+    border: 1px white solid; 
+    border-bottom: 10px;
+    padding-left: 15px;
+
+}
+
+
+.caja2 {
+    background-color: white;
+    width: 340px;
+    border: 1px white solid; 
+    border-bottom: 10px;
+    padding-left: 15px;
+}
+
+footer lu i {
+    color:blue;
+    font-size: 20px;
+    padding-left: 11rem;
+    
+}
+
+
+
+footer lu li {
+    color:black;
+    list-style: none;
+    font-size: 15px;
+    text-align: center;
+}
+footer p {
+    color:#666;
+    font-size: 11px;
+    text-align: center;
+}
+@media(min-width:361px){
+    ul{
+        display: none;
+    }
+    .des {
+        display: none;
+    }
+}
+
+@media(min-width:769px){
+    ul{
+        display: block;
+    }
+    .des {
+        display:block;
+    }
+    .burger-menu {
+        display: none;
+    }
+    .img {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);    
+    }
+    .img1 {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    .caja1 {   
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    
+    } 
+    .caja2 {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    .box1 ,.box2 , .box3 , .box4 {
+        width: 10%;
+    }
+    
+}
