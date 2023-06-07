@@ -1,0 +1,252 @@
+* {
+   box-sizing: border-box; 
+   margin: 0px;
+   padding: 0px;
+}
+section h4{
+    text-align: center;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+    margin: 0;
+}
+
+header {
+    padding: 20px;
+    background: #EAC926;
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+header .dos{
+    padding: 25px 0;
+}
+.container {
+    padding: 20px;
+
+}
+.container input {
+    width: 265px;
+    height: 30px;
+    padding: 0 20px;
+    font-size: 18px;
+    outline: none;
+    border: 1px solid silver;
+    border-radius: 10px;
+}
+.container button{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    background-color:white;
+    border: none;
+    border-radius: 20px ;
+}
+.container .box{
+    display: flex;
+}
+
+nav {
+    display: none;
+}
+
+
+
+.burger-menu i {
+    background-color: #03264C;
+    color: #ebebeb;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    font-size: 30;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.principal {
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    box-shadow: 0px 0px 20px 5px black;
+    border-radius: 10px;
+    width: 340px;
+}
+section i{
+    position: relative;
+    right: 40px;
+    bottom: 10px;
+}
+.segundo{
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    box-shadow: 0px 0px 20px 5px black;
+    border-radius: 10px;
+    width: 340px;
+}
+.tercero{
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    box-shadow: 0px 0px 20px 5px black;
+    border-radius: 10px;
+    width: 340px;
+}
+.cuarto{
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    box-shadow: 0px 0px 20px 5px black;
+    border-radius: 10px;
+    width: 340px;
+}
+.quinto{
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    box-shadow: 0px 0px 20px 5px black;
+    border-radius: 10px;
+    width: 340px;
+}
+.sexto{
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    box-shadow: 0px 0px 20px 5px black;
+    border-radius: 10px;
+    width: 340px;
+}
+
+footer{
+    height: auto;
+    background-color:rgb(159, 159, 168);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 15px;
+}
+footer p{
+    font-size: 14px;
+}
+
+
+@media (min-width:768px){
+
+
+    section {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .eimy{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    header{
+        width: 100%;
+        display:flex;
+        padding: 0;
+        margin: 0;
+    }
+    .uno{
+        
+        margin-right: 10px;
+    }
+    .cero{
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-around
+    }
+    .dos{
+        padding-left: 25px;
+    }
+    .box{
+        padding-right: 80px;
+    }
+    .container input{
+        width: 400px;
+    }
+    .burger-menu i{
+        display: none;
+    }
+    nav {
+        width: 100%;
+        display: flex;
+       justify-content: space-between;
+    }
+    nav .lista1{
+        display: flex;
+        flex-direction: row;
+        padding: 15px;
+        font-weight: bold;
+    }
+    nav .lista2{
+        padding: 15px;
+        font-weight: bold;
+    }
+    nav a {
+        text-decoration: none;
+        color: black;
+        font-size: 15px;
+        padding: 5px;
+    }
+    footer{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    footer .mano {
+        width: 450px;
+        border-right: #4e637b 2px solid;
+        padding-right: 2px;
+    }
+    footer .codo{
+        width: 450px;
+        border-right: #4e637b 2px solid;
+        padding-right: 2px;
+
+    }
+    footer .pie{
+        width: 450px;
+    }
+    footer i {
+        padding-bottom: 20px;
+    }
+    
+    
+}   
+
+
+
+
+
+
+
