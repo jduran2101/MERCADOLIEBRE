@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/mercadolibre.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+}
+.primero{
+    width: 320px;
+    height: 420px;
+    background:rgb(201, 201, 80);
+    top: 50%;
+    left: 25%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border-radius: 2.5%;
+}
+.primero .avatar{
+    
+    width: 100px;
+    height: 90px;
+    border-radius: 20%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% -50px);
+}
+.primero h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+.primero label{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+}
+.primero input{
+    width: 100%;
+    margin-bottom: 20px;
+} 
+.primero input[type="text"]
+.primero input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    height: 40px;
+    font-size: 16px; 
+    color: #fff
+}
+.primero input[type="submit"]{
+    border: none;
+    outline: none;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.primero a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: black;
+}
+.primero a:hover{
+    color:#fff
+}
+.icono {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    
+}
+.icono i{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    padding: 5px;
+}
+
+
+
+
+.modern {
+    background-color: #4CAF50;
+    border:none;
+    color:white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.modern:hover{
+    background-color: #3e8e41;
+    color: black;
+}
